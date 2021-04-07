@@ -1,11 +1,9 @@
-import { Button, Typography } from '@material-ui/core';
-import CodeCard from './components/CodeCard';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <CodeCard/>
-      <Button variant="contained" color="primary">Test</Button>
+    <div className="App" style={{padding: "12em 5% 12em 5%"}}>
+      <HomePage/>
       </div>
   );
 }

@@ -13,6 +13,13 @@ let theme = createMuiTheme({
     secondary: {
       main: "#151718",
     },
+    overrides: {
+      MuiButton: {
+        root: {
+          color: "#0FF",
+        },
+      },
+    }
   },
 });
 theme = responsiveFontSizes(theme);
